@@ -36,6 +36,12 @@ class Article
      */
     private $date;
 
+    public function __construct()
+    {
+        $this->date = new \DateTime();
+    }
+
+
     /**
      * @ORM\ManyToOne(targetEntity="App\Entity\Categorie", inversedBy="articles")
      */

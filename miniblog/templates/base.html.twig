@@ -23,11 +23,13 @@
     {% block stylesheets %}{% endblock %}
 </head>
 <body>
-<div id="sidebar">
+<div id="sidebar" style="text-align: right; padding-right: 20%;">
     {% block sidebar %}
         <ul>
-            <li><a href="//home">Home</a></li>
-            <li><a href="//blog">Blog</a></li>
+            <li><a href="/home"><img src="/images/icons/favicon.ico" style="width: 25px;"></a> |
+                <a href="/blog">Blog</a> |
+                <a href="/formulaire/article">Créer un article</a>
+            </li>
         </ul>
     {% endblock %}
 </div>
