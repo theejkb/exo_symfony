@@ -1,2 +1,1 @@
-# exo_symfony
-exercice d'entrainement symfony
+# Exercice d'entrainement Symfony / GitHub
